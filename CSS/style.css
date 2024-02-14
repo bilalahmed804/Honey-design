@@ -1,0 +1,78 @@
+@font-face {
+    font-family:Roboto ;
+    src: url(../font\ family/Roboto-Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navzero{
+    background-image: url(../images/body_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 2390px;
+}
+.position_num{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:18px;
+    position: absolute;
+    top: 50px;
+    left: 170px;
+}
+.position_numzero{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+.navbar_column{
+    display: flex;
+    flex-direction:row;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    margin: 60px 0px 0px 20px ;
+}
+.navbar_column> a{
+    padding: 17px;
+    text-decoration: none;
+    font-family: Roboto;
+    color: white;
+}
+.navbar_column> a:hover{
+    color: #D9633B;
+}
+
+.toggler{
+    background-color: #D9633B;
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+}
+.toggler:hover{
+    background-color: black;
+}
+#one01{
+    background-image: url(../images/about_left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 200px;
+}
+@media only screen and (max-width:576px) {
+    .spacing{
+       padding-top: 20px;
+       padding-left: 20px;
+    }
+    
+}
+@media only screen and (max-width:576px){
+    .position_num{
+        position: absolute;
+        top: 50px;
+        left: 5px;
+    }
+}
